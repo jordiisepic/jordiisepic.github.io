@@ -19,3 +19,5 @@ Discord: jord man#1807
 Twitter: @jordiisepic
 
 Wii U (NNID): 1jordan0
+
+file:///C:/Users/quete/Documents/GitHub/jordiisepic.github.io/chet.png
