@@ -20,4 +20,10 @@ Twitter: @jordiisepic
 
 Wii U (NNID): 1jordan0
 
-file:///C:/Users/quete/Documents/GitHub/jordiisepic.github.io/chet.png
+Here's an image of a drag racer in action:
+
+![Chet moment](./images/chet.png)
+
+![Chet moment](/images/chet.png)
+
+Move along.
