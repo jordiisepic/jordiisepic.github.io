@@ -1,3 +1,5 @@
 # jordiisepic.github.io
 
-My first site using GitHub, still working things out
+## My GitHub Pages site
+
+Not much is on here but some stuff will update
