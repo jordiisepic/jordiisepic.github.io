@@ -19,11 +19,3 @@ Discord: jord man#1807
 Twitter: @jordiisepic
 
 Wii U (NNID): 1jordan0
-
-Here's an image of a drag racer in action:
-
-![Chet moment](./images/chet.png)
-
-![Chet moment](/images/chet.png)
-
-Move along.
