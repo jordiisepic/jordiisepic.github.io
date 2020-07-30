@@ -1,3 +1,5 @@
+<title>Hacker theme | Hacker is a theme for GitHub Pages.</title>
+
 # Introduction
 
 This is my first site ever and it's hosted with GitHub Pages.
