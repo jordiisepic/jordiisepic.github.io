@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    font: normal 12px Helvetica, Arial;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container {
+    width:80%;
+    margin:auto;
+}
+
+.box-1 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(0, 255, 85) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.box-2 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(0, 153, 255) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.box-3 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(255, 123, 0) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(40, 95, 245);
+}
