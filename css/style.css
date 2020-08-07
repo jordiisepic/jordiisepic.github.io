@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width:80%;
+    width:60%;
     margin:auto;
 }
 
@@ -30,6 +30,22 @@ body {
 .box-3 {
     background-color: rgb(49, 49, 49);
     border-left:3px rgb(255, 123, 0) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.box-4 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(231, 46, 46) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.box-5 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(79, 197, 218) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
