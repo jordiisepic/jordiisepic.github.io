@@ -67,6 +67,30 @@ body {
     margin-top:10px;
 }
 
+.box-8 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(255, 255, 255) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.box-9 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(241, 170, 36) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.box-10 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(116, 116, 116) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
 a {
     text-decoration:none;
     color:rgb(63, 111, 243);
