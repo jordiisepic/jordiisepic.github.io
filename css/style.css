@@ -13,7 +13,7 @@ body {
 
 .box-1 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(0, 255, 85) solid;
+    border-left:3px rgb(74, 150, 238) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
@@ -21,7 +21,7 @@ body {
 
 .box-2 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(0, 153, 255) solid;
+    border-left:3px rgb(102, 214, 158) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
@@ -29,7 +29,7 @@ body {
 
 .box-3 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(255, 123, 0) solid;
+    border-left:3px rgb(240, 76, 47) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
@@ -37,55 +37,7 @@ body {
 
 .box-4 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(231, 46, 46) solid;
-    padding-top:3px;
-    padding-left:10px;
-    margin-top:10px;
-}
-
-.box-5 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(79, 197, 218) solid;
-    padding-top:3px;
-    padding-left:10px;
-    margin-top:10px;
-}
-
-.box-6 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(0, 110, 255) solid;
-    padding-top:3px;
-    padding-left:10px;
-    margin-top:10px;
-}
-
-.box-7 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(196, 120, 196) solid;
-    padding-top:3px;
-    padding-left:10px;
-    margin-top:10px;
-}
-
-.box-8 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(255, 255, 255) solid;
-    padding-top:3px;
-    padding-left:10px;
-    margin-top:10px;
-}
-
-.box-9 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(241, 170, 36) solid;
-    padding-top:3px;
-    padding-left:10px;
-    margin-top:10px;
-}
-
-.box-10 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(116, 116, 116) solid;
+    border-left:3px rgb(240, 44, 109) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
