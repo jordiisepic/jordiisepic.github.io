@@ -11,14 +11,6 @@ body {
     margin:auto;
 }
 
-.box-1 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(74, 238, 82) solid;
-    padding-top:3px;
-    padding-left:10px;
-    margin-top:10px;
-}
-
 .box-2 {
     background-color: rgb(49, 49, 49);
     border-left:3px rgb(50, 160, 233) solid;
@@ -37,7 +29,7 @@ body {
 
 .box-4 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(218, 39, 39) solid;
+    border-left:3px rgb(39, 218, 93) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
