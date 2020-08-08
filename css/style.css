@@ -2,12 +2,12 @@ body {
     background-color: rgb(41, 41, 41);
     color: rgb(255, 255, 255);
     font: normal 12px Helvetica, Arial;
-    line-height:1.6em;
+    line-height:1.4em;
     margin:0;
 }
 
 .container {
-    width:60%;
+    width:50%;
     margin:auto;
 }
 
