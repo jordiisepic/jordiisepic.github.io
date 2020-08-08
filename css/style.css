@@ -13,7 +13,7 @@ body {
 
 .box-1 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(74, 150, 238) solid;
+    border-left:3px rgb(74, 238, 82) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
@@ -21,7 +21,7 @@ body {
 
 .box-2 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(102, 214, 158) solid;
+    border-left:3px rgb(50, 160, 233) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
@@ -29,7 +29,7 @@ body {
 
 .box-3 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(240, 76, 47) solid;
+    border-left:3px rgb(233, 65, 35) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
@@ -37,7 +37,7 @@ body {
 
 .box-4 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(240, 44, 109) solid;
+    border-left:3px rgb(255, 255, 255) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
