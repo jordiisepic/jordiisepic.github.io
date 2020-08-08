@@ -29,13 +29,21 @@ body {
 
 .box-3 {
     background-color: rgb(49, 49, 49);
-    border-left:3px rgb(233, 65, 35) solid;
+    border-left:3px rgb(211, 208, 53) solid;
     padding-top:3px;
     padding-left:10px;
     margin-top:10px;
 }
 
 .box-4 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px rgb(218, 39, 39) solid;
+    padding-top:3px;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+.box-5 {
     background-color: rgb(49, 49, 49);
     border-left:3px rgb(255, 255, 255) solid;
     padding-top:3px;
