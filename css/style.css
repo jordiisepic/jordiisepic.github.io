@@ -1,7 +1,7 @@
 body {
     background-color: rgb(41, 41, 41);
     color: rgb(255, 255, 255);
-    font: normal 12px Helvetica, Arial;
+    font: normal 14px Helvetica, Arial;
     line-height:1.4em;
     margin:0;
 }
@@ -65,7 +65,53 @@ body {
     margin-top:10px;
 }
 
+.box-8 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px #7289DA solid;
+    padding-top:3px;
+    padding-left:10px;
+    padding-bottom:1px;
+    margin-top:10px;
+}
+
+.box-9 {
+    background-color: rgb(49, 49, 49);
+    border-left:3px #6441a5 solid;
+    padding-top:3px;
+    padding-left:10px;
+    padding-bottom:1px;
+    margin-top:10px;
+}
+
 a {
     text-decoration:none;
     color:rgb(77, 172, 250);
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #5c4cec;
+  }
