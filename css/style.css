@@ -1,88 +1,41 @@
-body {
-    background-color: rgb(41, 41, 41);
+body, html {
+    height: 100%;
+    margin: 0;
     color: rgb(255, 255, 255);
     font: normal 14px Helvetica, Arial;
     line-height:1.4em;
-    margin:0;
+    background-color: #000;
 }
 
-.container {
-    width:50%;
-    margin:auto;
+.index {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
 }
 
-.box-2 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(50, 160, 233) solid;
-    padding-top:3px;
-    padding-left:10px;
-    padding-bottom:1px;
-    margin-top:10px;
+.repo {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-.box-3 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(211, 208, 53) solid;
-    padding-top:3px;
-    padding-left:10px;
-    padding-bottom:1px;
-    margin-top:10px;
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-.box-4 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(39, 218, 93) solid;
-    padding-top:3px;
-    padding-left:10px;
-    padding-bottom:1px;
-    margin-top:10px;
+h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
-
-.box-5 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(255, 255, 255) solid;
-    padding-top:3px;
-    padding-left:10px;
-    padding-bottom:1px;
-    margin-top:10px;
-}
-
-.box-6 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(236, 37, 186) solid;
-    padding-top:3px;
-    padding-left:10px;
-    padding-bottom:1px;
-    margin-top:10px;
-}
-
-.box-7 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px rgb(204, 119, 40) solid;
-    padding-top:3px;
-    padding-left:10px;
-    padding-bottom:1px;
-    margin-top:10px;
-}
-
-.box-8 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px #7289DA solid;
-    padding-top:3px;
-    padding-left:10px;
-    padding-bottom:1px;
-    margin-top:10px;
-}
-
-.box-9 {
-    background-color: rgb(49, 49, 49);
-    border-left:3px #6441a5 solid;
-    padding-top:3px;
-    padding-left:10px;
-    padding-bottom:1px;
-    margin-top:10px;
-}
-
 a {
     text-decoration:none;
     color:rgb(77, 172, 250);
@@ -113,5 +66,105 @@ ul {
   }
   
   .active {
-    background-color: #5c4cec;
+    background-color: #4275d4;
   }
+
+  .bg-image {
+    background-image: url("../assets/bg.jpg");
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    height: 95%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .contain1 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+}
+
+.contain2 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+}
+
+.discord {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+}
+
+.twitch {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+}
+
+.twitter {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+}
+
+.contain3 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+}
