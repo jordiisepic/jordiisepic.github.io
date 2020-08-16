@@ -71,9 +71,7 @@ ul {
 
   .bg-image {
     background-image: url("../assets/bg.jpg");
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-    height: 95%; 
+    height: 95.8%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -167,4 +165,12 @@ ul {
     z-index: 2;
     width: 80%;
     padding: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
