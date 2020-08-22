@@ -5,40 +5,84 @@ body, html {
     font: normal 14px Helvetica, Arial;
     line-height:1.4em;
     background-color: #000;
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.index {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-}
-
-.repo {
-    font-size: 36px;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-h1 {
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-h3 {
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-}
 a {
-    text-decoration:none;
-    color:rgb(77, 172, 250);
+  text-decoration: none;
+  color: #2468ce;
+}
+
+.riitag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+  height: 200px;
+}
+
+.center {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-2-1 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-2-2 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-3-1 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-3-2 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-3-3 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hyperlink {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.3em;
 }
 
 ul {
@@ -46,7 +90,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #33333359;
   }
   
   li {
@@ -62,110 +106,12 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #11111159;
   }
   
   .active {
-    background-color: #4275d4;
+    background-color: #4275d459;
   }
-
-  .bg-image {
-    background-image: url("../assets/bg.jpg");
-    height: 95.8%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-
-  .contain1 {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-}
-
-.contain2 {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-}
-
-.discord {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-}
-
-.twitch {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-}
-
-.twitter {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-}
-
-.contain3 {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-}
 
 .footer {
   position: fixed;
@@ -173,4 +119,5 @@ ul {
   bottom: 0;
   width: 100%;
   text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }
