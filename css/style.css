@@ -2,10 +2,10 @@ body, html {
     height: 100%;
     margin: 0;
     color: rgb(255, 255, 255);
-    font: normal 14px Helvetica, Arial;
+    font: normal 14px Arial, Helvetica, sans-serif;
     line-height:1.4em;
     background-color: #000;
-    background-image: url("../assets/bg.jpg");
+    background-image: url('../assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
