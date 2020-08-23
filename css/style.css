@@ -32,51 +32,17 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: push-in 0.3s;
 }
 
-.center-2-1 {
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@keyframes push-in {
+    from { opacity: 0; top: 52%;}
+    to   { opacity: 1; top: 50%;}   
 }
 
-.center-2-2 {
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.center-3-1 {
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.center-3-2 {
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.center-3-3 {
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@keyframes fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .hyperlink {
@@ -90,27 +56,27 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #33333359;
+    background-color: #333;
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
     display: block;
-    color: white;
+    color: rgb(133, 133, 133);
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 16px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: #11111159;
+    color: white;
   }
   
   .active {
-    background-color: #4275d459;
+    color: #ffffff;
   }
 
 .footer {
