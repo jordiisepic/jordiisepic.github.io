@@ -1,6 +1,7 @@
 body {
   font-family: Arial;
   background-color: #111;
+  color: white;
 }
 
 ul {
@@ -49,4 +50,5 @@ color: #6441a5;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
