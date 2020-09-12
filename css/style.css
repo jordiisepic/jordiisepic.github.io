@@ -51,6 +51,5 @@ color: #6441a5;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  font-size: 20px;
 }
