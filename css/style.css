@@ -1,62 +1,43 @@
-body, html {
-    background-color: black;
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://512pixels.net/wp-content/uploads/2020/06/11-0-Night-thumbnail.jpg);
+body {
+  font-family: Arial;
 }
 
-.twitter-tweet, h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 2px 2px #000;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
 }
 
-a {
-    text-decoration: none;
-    color: #34b2fc;
+li {
+  float: left;
 }
 
-.youtube {
-    color: rgb(133, 133, 133);
-    position: absolute;
-    left: 45%;
-    bottom: 20px;
-    padding: 10px 16px;
-    text-shadow: 2px 2px 4px #000000;
+li a {
+  display: block;
+  color: #737373;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
 }
 
-.twitch {
-    color: rgb(133, 133, 133);
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    padding: 10px 16px;
-    text-shadow: 2px 2px 4px #000000;
+li a:hover:not(.active):not(.youtube):not(.twitter):not(.twitch) {
+  color: #b8b8b8;
 }
 
-.twitter {
-    color: rgb(133, 133, 133);
-    position: absolute;
-    left: 55%;
-    bottom: 20px;
-    padding: 10px 16px;
-    text-shadow: 2px 2px 4px #000000;
-}
-  
-.youtube:hover:not(.active) {
-    color: white;
+.active {
+  color: white;
 }
 
-.twitch:hover:not(.active) {
-    color: white;
+.youtube:hover {
+color: red;
 }
 
-.twitter:hover:not(.active) {
-    color: white;
+.twitter:hover {
+color: #00acee;
+}
+
+.twitch:hover {
+color: #6441a5;
 }
