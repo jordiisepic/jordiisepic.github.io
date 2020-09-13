@@ -120,7 +120,11 @@ img {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
   color: white;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(61, 174, 226);
 }
