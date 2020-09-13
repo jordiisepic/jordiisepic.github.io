@@ -122,6 +122,7 @@ img {
   width: 100%;
   color: white;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
 }
 
 a {
