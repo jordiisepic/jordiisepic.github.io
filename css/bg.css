@@ -6,20 +6,26 @@ html, body {
 }
 
 body {
-    background: linear-gradient(308deg, #ff00bd, #00ff0a);
+    background: linear-gradient(115deg, #00d0ff, #8d00ff);
     background-size: 400% 400%;
 
-    -webkit-animation: background 12s ease infinite;
-    animation: background 12s ease infinite;
+    -webkit-animation: background 6s ease infinite;
+    -moz-animation: background 6s ease infinite;
+    animation: background 6s ease infinite;
 }
 
 @-webkit-keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 28%}
+    50%{background-position:100% 73%}
+    100%{background-position:0% 28%}
+}
+@-moz-keyframes background {
+    0%{background-position:0% 28%}
+    50%{background-position:100% 73%}
+    100%{background-position:0% 28%}
 }
 @keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 28%}
+    50%{background-position:100% 73%}
+    100%{background-position:0% 28%}
 }
