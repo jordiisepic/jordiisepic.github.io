@@ -1,6 +1,4 @@
-# 🌐 [jordiisepic.github.io](https://jordiisepic.github.io)
+# [🌐](https://jordiisepic.github.io) jordiisepic.github.io
 
-## What's the point?
-* ### View the hard work I've put into this
-* ### Laugh at my messy HTML and CSS
-* ### Look at my social media
+### This is my random website I've spent hours upon hours working on, most of it is off of my limited HTML and CSS knowledge and of course shameless copy-pasting.
+### Enjoy this random mess, I suppose.
