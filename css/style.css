@@ -70,47 +70,6 @@ hr {
   box-shadow: 2px 2px 2px black;
 }
 
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: #737373;
-  padding: 10px 12px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #111;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: #5c5c5c;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  color: #999999;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropbtn:hover {
-  color: #b8b8b8;
-}
-
 img {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
