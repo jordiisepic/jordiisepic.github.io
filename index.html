@@ -15,21 +15,18 @@
   <meta property="og:site_name" content="jordiisepic"/>
   <link rel="stylesheet" href="https://jordiisepic.me/css/bg.css">
   <link rel="stylesheet" href="https://jordiisepic.me/css/style.css">
-  <link rel="stylesheet" href="https://jordiisepic.me/css/style.css">
-  <link rel="stylesheet" href="https://jordiisepic.me/css/dropdown.css">
-  <script type="text/javascript" src="https://jordiisepic.me/js/dropdown.js"></script>
 </head>
 <body>
 <ul>
   <li><a class="active" href="https://jordiisepic.me">Home</a></li>
   <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Content
+    <button class="dropbtn">Content 
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content" id="myDropdown">
+    <div class="dropdown-content">
       <a href="https://jordiisepic.me/codes">Friend Codes</a>
     </div>
-    </div> 
+  </div> 
   <li><a href="https://jordiisepic.me/about">About</a></li>
   <li style="float:right"><a href="https://twitch.tv/jordiisepic" class="twitch" target="_blank"><i class="fab fa-twitch"></i></a></li>
   <li style="float:right"><a href="https://twitter.com/jordiisepic" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
@@ -41,19 +38,5 @@
 <div class="footer">
   <p>Hosted on <a href="https://github.com/jordiisepic/jordiisepic.github.io">GitHub Pages</a></p>
 </div>
-<script>
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-    }
-  }
-</script>
 </body>
 </html>
