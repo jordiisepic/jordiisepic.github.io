@@ -70,10 +70,6 @@ hr {
   box-shadow: 2px 2px 2px black;
 }
 
-img {
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
 .footer {
   position: fixed;
   left: 0;
