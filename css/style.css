@@ -66,6 +66,7 @@ color: #6441a5;
 hr {
   color: #888;
   box-shadow: 2px 2px 2px black;
+  width: 100px;
 }
 
 .footer {
