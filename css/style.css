@@ -56,8 +56,6 @@ color: #6441a5;
   font-size: 21px;
   text-align: center;
   animation: fadein 0.5s;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px black;
 }
 
 @keyframes fadein {
@@ -78,4 +76,9 @@ color: #6441a5;
 a {
   text-decoration: none;
   color: rgb(61, 174, 226);
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
 }
