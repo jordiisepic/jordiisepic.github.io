@@ -19,11 +19,13 @@ body {
     50%{background-position:100% 73%}
     100%{background-position:0% 28%}
 }
+
 @-moz-keyframes background {
     0%{background-position:0% 28%}
     50%{background-position:100% 73%}
     100%{background-position:0% 28%}
 }
+
 @keyframes background {
     0%{background-position:0% 28%}
     50%{background-position:100% 73%}
