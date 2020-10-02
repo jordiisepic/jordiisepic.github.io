@@ -12,7 +12,7 @@
   <meta property="og:description" content="Just my place to experiment with some HTML and CSS stuff, look as you please."/>
   <meta property="og:url" content="http://jordiisepic.me/"/>
   <meta property="og:site_name" content="jordiisepic"/>
-  <meta name="twitter:image:src" content="https://jordiisepic.me/assets/icon.png"/>
+  <meta name="twitter:image" content="https://jordiisepic.me/assets/icon.png"/>
   <meta name="twitter:site" content="@jordiisepic"/>
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:title" content="Home &#183; jordiisepic"/>
@@ -22,19 +22,42 @@
   <link rel="stylesheet" href="https://jordiisepic.me/css/style.css">
 </head>
 <body>
-<ul>
-  <li><a class="active" href="https://jordiisepic.me">Home</a></li>
-  <li><a href="https://jordiisepic.me/codes">Friend Codes</a></li>
-  <li><a href="https://jordiisepic.me/about">About</a></li>
+<div class="navbar">
+  <a href="https://jordiisepic.me">Home</a>
+  <a href="https://jordiisepic.me/codes">Friend Codes</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Content
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
   <li style="float:right"><a href="https://twitch.tv/jordiisepic" class="twitch" target="_blank"><i class="fab fa-twitch"></i></a></li>
   <li style="float:right"><a href="https://twitter.com/jordiisepic" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
   <li style="float:right"><a href="https://youtube.com/jordiisepic" class="youtube" target="_blank"><i class="fab fa-youtube"></i></a></li>
-</ul>
+  </div> 
+</div>
 <div class="center">
   <img src="https://jordiisepic.me/assets/logo.png" width="100%" alt="jordiisepic">
 </div>
 <div class="footer">
   <p>Hosted on <a href="https://github.com/jordiisepic/jordiisepic.github.io">GitHub Pages</a></p>
 </div>
+<script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>
 </body>
 </html>
