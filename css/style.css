@@ -95,6 +95,10 @@ a {
   color: rgb(255, 255, 255);
 }
 
+.youtube, .twitter, .twitch {
+  float: right;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
