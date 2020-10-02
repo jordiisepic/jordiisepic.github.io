@@ -68,7 +68,7 @@ a {
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: rgb(146, 146, 146);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -92,7 +92,7 @@ a {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
+  color: red;rgb(255, 255, 255)
 }
 
 .dropdown-content {
