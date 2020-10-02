@@ -3,30 +3,6 @@ body {
   color: white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #222;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #737373;
-  text-align: center;
-  padding: 10px 12px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active):not(.youtube):not(.twitter):not(.twitch) {
-  color: #b8b8b8;
-}
-
 .active {
   color: white;
 }
