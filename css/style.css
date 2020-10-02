@@ -3,21 +3,7 @@ body {
   color: white;
 }
 
-.active {
-  color: white;
-}
 
-.youtube:hover {
-color: red;
-}
-
-.twitter:hover {
-color: #00acee;
-}
-
-.twitch:hover {
-color: #6441a5;
-}
 
 .center {
   margin: 0;
@@ -97,6 +83,18 @@ a {
 
 .youtube, .twitter, .twitch {
   float: right;
+}
+
+.youtube:hover {
+color: red;
+}
+
+.twitter:hover {
+color: #00acee;
+}
+
+.twitch:hover {
+color: #6441a5;
 }
 
 .dropdown-content {
