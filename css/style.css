@@ -91,7 +91,7 @@ a {
   margin: 0;
 }
 
-.navbar a:hover, .dropbtn:focus, .dropbtn:hover {
+.navbar a:hover:not(.youtube):not(.twitter):not(.twitch), .dropbtn:focus, .dropbtn:hover {
   color: rgb(255, 255, 255);
 }
 
