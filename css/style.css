@@ -91,7 +91,7 @@ a {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus, .dropbtn:hover {
+.navbar a:hover, .dropbtn:focus, .dropbtn:hover {
   color: rgb(255, 255, 255);
 }
 
