@@ -12,19 +12,34 @@
   <meta property="og:description" content="Just my place to experiment with some HTML and CSS stuff, look as you please."/>
   <meta property="og:url" content="http://jordiisepic.me/"/>
   <meta property="og:site_name" content="jordiisepic"/>
+  <meta name="twitter:image" content="https://jordiisepic.me/assets/icon.png"/>
+  <meta name="twitter:site" content="@jordiisepic"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Home &#183; jordiisepic"/>
+  <meta name="twitter:description" content="Just my place to experiment with some HTML and CSS stuff, look as you please."/>
   <meta name="theme-color" content="#ffcc4d">
   <link rel="stylesheet" href="https://jordiisepic.me/css/bg.css">
   <link rel="stylesheet" href="https://jordiisepic.me/css/style.css">
 </head>
 <body>
-<ul>
-  <li><a class="active" href="https://jordiisepic.me">Home</a></li>
-  <li><a href="https://jordiisepic.me/codes">Friend Codes</a></li>
-  <li><a href="https://jordiisepic.me/about">About</a></li>
-  <li style="float:right"><a href="https://twitch.tv/jordiisepic" class="twitch" target="_blank"><i class="fab fa-twitch"></i></a></li>
-  <li style="float:right"><a href="https://twitter.com/jordiisepic" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
-  <li style="float:right"><a href="https://youtube.com/jordiisepic" class="youtube" target="_blank"><i class="fab fa-youtube"></i></a></li>
-</ul>
+<div class="navbar">
+  <a href="https://jordiisepic.me">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Content
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#">Software</a>
+    <a href="#">Friend Codes</a>
+  </div>
+  </div> 
+  <a href="https://jordiisepic.me/about">About</a>
+  <div class="socials">
+  <a href="https://twitch.tv/jordiisepic" class="twitch" target="_blank"><i class="fab fa-twitch"></i></a>
+  <a href="https://twitter.com/jordiisepic" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://youtube.com/jordiisepic" class="youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
 <div class="center">
   <h1>404 Not Found</h1>
   <p>The page you are looking does not exist</p>
