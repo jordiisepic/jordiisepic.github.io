@@ -81,10 +81,6 @@ a {
   color: rgb(255, 255, 255);
 }
 
-.youtube, .twitter, .twitch {
-  float: right;
-}
-
 .youtube:hover {
 color: red;
 }
