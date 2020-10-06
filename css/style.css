@@ -57,6 +57,10 @@ a {
   text-decoration: none;
 }
 
+.navbar a:not(.youtube):not(.twitter):not(.twitch) {
+  float: left;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
