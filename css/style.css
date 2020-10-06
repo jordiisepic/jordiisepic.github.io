@@ -3,8 +3,6 @@ body {
   color: white;
 }
 
-
-
 .center {
   margin: 0;
   position: absolute;
@@ -23,10 +21,6 @@ body {
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-}
-
-.fab fa-twitch, .fab fa-twitter, .fab fa-youtube {
-  float: right;
 }
 
 .footer {
@@ -121,4 +115,8 @@ color: #6441a5;
 
 .show {
   display: block;
+}
+
+.socials {
+  float: right;
 }
