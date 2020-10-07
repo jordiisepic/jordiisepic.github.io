@@ -50,15 +50,12 @@ a {
 }
 
 .navbar a {
+  float: left;
   font-size: 16px;
   color: rgb(146, 146, 146);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.navbar a:not(.youtube):not(.twitter):not(.twitch) {
-  float: left;
 }
 
 .dropdown {
@@ -78,7 +75,7 @@ a {
   margin: 0;
 }
 
-.navbar a:hover:not(.youtube):not(.twitter):not(.twitch), .dropbtn:focus, .dropbtn:hover {
+.navbar a:hover:not(.youtube):not(.twitter):not(.twitch), .dropbtn:focus, {
   color: rgb(255, 255, 255);
 }
 
@@ -97,7 +94,7 @@ color: #6441a5;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgb(255, 255, 255);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -110,10 +107,6 @@ color: #6441a5;
   text-decoration: none;
   display: block;
   text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
 }
 
 .show {

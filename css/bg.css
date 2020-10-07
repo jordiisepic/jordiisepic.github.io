@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(115deg, #8f7431, #ffcc4d);
+    background: linear-gradient(-90deg, #4e4e4e, #0f0f0f);
     background-size: 400% 400%;
 
     -webkit-animation: background 6s ease infinite;
@@ -15,19 +15,19 @@ body {
 }
 
 @-webkit-keyframes background {
-    0%{background-position:0% 28%}
-    50%{background-position:100% 73%}
-    100%{background-position:0% 28%}
+    0%{background-position:0% 0%}
+    50%{background-position:100% 0%}
+    100%{background-position:0% 0%}
 }
 
 @-moz-keyframes background {
-    0%{background-position:0% 28%}
-    50%{background-position:100% 73%}
-    100%{background-position:0% 28%}
+    0%{background-position:0% 0%}
+    50%{background-position:100% 0%}
+    100%{background-position:0% 0%}
 }
 
 @keyframes background {
-    0%{background-position:0% 28%}
-    50%{background-position:100% 73%}
-    100%{background-position:0% 28%}
+    0%{background-position:0% 0%}
+    50%{background-position:100% 0%}
+    100%{background-position:0% 0%}
 }
