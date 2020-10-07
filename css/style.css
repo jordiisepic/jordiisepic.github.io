@@ -3,10 +3,6 @@ body {
   color: white;
 }
 
-.active {
-  color: white;
-}
-
 .center {
   margin: 0;
   position: absolute;
@@ -79,7 +75,7 @@ a {
   margin: 0;
 }
 
-.navbar a:hover:not(.youtube):not(.twitter):not(.twitch):not(.dropdown-content a), .dropbtn:focus {
+.navbar a:hover:not(.youtube):not(.twitter):not(.twitch):not(.github):not(.discord), .dropbtn:hover, .dropbtn:focus {
   color: white;
 }
 
@@ -93,6 +89,14 @@ color: #00acee;
 
 .twitch:hover {
 color: #6441a5;
+}
+
+.github:hover {
+  color: white;
+}
+
+.discord:hover {
+  color: #7289DA;
 }
 
 .dropdown-content {
