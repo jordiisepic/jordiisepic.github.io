@@ -54,9 +54,9 @@ a {
 }
 
 .navbar a {
+  color: rgb(194, 194, 194);
   float: left;
   font-size: 16px;
-  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -72,14 +72,14 @@ a {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: rgb(146, 146, 146);
+  color: rgb(194, 194, 194);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover:not(.youtube):not(.twitter):not(.twitch), .dropbtn:focus {
+.navbar a:hover:not(.youtube):not(.twitter):not(.twitch):not(.dropdown-content a), .dropbtn:focus {
   color: white;
 }
 
