@@ -2,7 +2,16 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #111;
+  background-image: url("../assets/bg.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
+}
+
+body, html {
+  height: 100%;
 }
 
 .center {
@@ -17,6 +26,7 @@ body {
   font-size: 21px;
   text-align: center;
   animation: fadein 0.7s;
+  text-shadow: 2px 2px 2px #000;
 }
 
 @keyframes fadein {
@@ -31,6 +41,7 @@ body {
   width: 100%;
   color: white;
   text-align: center;
+  text-shadow: 2px 2px 2px #000;
 }
 
 a {
@@ -46,4 +57,9 @@ a {
     display: inline;
     vertical-align: top;
     line-height: 28px;
+}
+
+.riitag {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #000;
 }
