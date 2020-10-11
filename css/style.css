@@ -37,3 +37,13 @@ a {
   text-decoration: none;
   color: rgb(61, 174, 226);
 }
+
+.small {
+  font-size: 12px;
+}
+
+.inline p {
+    display: inline;
+    vertical-align: top;
+    line-height: 28px;
+}
