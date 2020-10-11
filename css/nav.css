@@ -1,11 +1,12 @@
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 170px;
+  width: 200px;
   background-color: #242424;
   position: fixed;
   height: 100%;
   overflow: auto;
+  backgroun;
 }
 
 .sidebar a {
@@ -16,6 +17,7 @@
   text-decoration: none;
   font-size: 25px;
   line-height: 37px;
+  transition: all 0.3s ease;
 }
 
 .sidebar a:hover {
@@ -36,8 +38,38 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 .navbar a:hover {
   background-color: rgb(70, 70, 70);
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  div.content {margin-left: 0;}
+  .sidebar a {
+    text-align: center;
+    float: none;
+    line-height: 3em;
+  }
+  .navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .navbar a {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 36px;
+  }
 }
