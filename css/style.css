@@ -1,17 +1,28 @@
 body {
-  margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #111;
+  text-shadow: 2px 2px 2px #000;
+  color: white;
   background-image: url("../assets/bg.jpg");
+  background-color: #111;
+  margin: 0;
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  overflow: hidden;
 }
 
 body, html {
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(61, 174, 226);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .center {
@@ -21,17 +32,11 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 20px;
-  margin-top: 25px;
-  font-size: 21px;
-  text-align: center;
-  animation: fadein 0.7s;
-  text-shadow: 2px 2px 2px #000;
 }
 
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+.links {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .footer {
@@ -41,34 +46,4 @@ body, html {
   width: 100%;
   color: white;
   text-align: center;
-  text-shadow: 2px 2px 2px #000;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(61, 174, 226);
-}
-
-.small {
-  font-size: 12px;
-}
-
-.inline p {
-    display: inline;
-    vertical-align: top;
-    line-height: 28px;
-}
-
-.riitag {
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px #000;
-}
-
-@media screen and (max-width: 1200px) {
-  .footer {
-    visibility: hidden;
-  }
-  .riitag {
-    width: 100%;
-  }
 }
