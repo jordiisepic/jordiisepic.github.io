@@ -47,3 +47,16 @@ a:hover {
   color: white;
   text-align: center;
 }
+
+.corner-ribbon {
+  width: 500px;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  color: #000000;
+  background: rgb(236, 224, 50);
+  text-shadow: none;
+  top: 50px;
+  right: -180px;
+  transform: rotate(45deg);
+}
