@@ -2,7 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 2px 2px 2px #000;
   color: white;
-  background-image: url("../assets/bg.jpg");
+  background-image: url("../assets/bg.png");
   background-color: #111;
   margin: 0;
   height: 100%; 
@@ -32,6 +32,7 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  animation: fadeIn .7s;
 }
 
 .links {
@@ -48,15 +49,7 @@ a:hover {
   text-align: center;
 }
 
-.corner-ribbon {
-  width: 500px;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-  color: #000000;
-  background: rgb(236, 224, 50);
-  text-shadow: none;
-  top: 50px;
-  right: -180px;
-  transform: rotate(45deg);
+@keyframes fadeIn {
+  0%   {opacity: 0%;}
+  100% {opacity: 100%;}
 }
