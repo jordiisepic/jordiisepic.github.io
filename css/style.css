@@ -1,28 +1,19 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 2px 2px 2px #000;
-  color: white;
-  background-image: url("../assets/bg.png");
-  background-color: #111;
-  margin: 0;
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-body, html {
-  height: 100%;
+  text-shadow: 1px 1px 2px #000;
 }
 
 a {
   text-decoration: none;
-  color: rgb(61, 174, 226);
+  color: rgb(255, 255, 255);
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.not-found a {
+  color: red;
 }
 
 .center {
@@ -32,12 +23,7 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  animation: fadeIn .7s;
-}
-
-.links {
-  margin-top: 20px;
-  margin-left: 20px;
+  animation: fade-in .5s;
 }
 
 .footer {
@@ -49,7 +35,11 @@ a:hover {
   text-align: center;
 }
 
-@keyframes fadeIn {
-  0%   {opacity: 0%;}
-  100% {opacity: 100%;}
+.footer i {
+  color: black
+}
+
+@keyframes fade-in {
+from { opacity: 0;}
+to   { opacity: 1;}   
 }
