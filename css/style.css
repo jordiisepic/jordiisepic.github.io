@@ -1,45 +1,32 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 1px 1px 2px #000;
+  background-color: #111;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(34, 233, 110);
 }
 
-a:hover {
-  text-decoration: underline;
+.socials {
+  font-size: 24px;
 }
 
-.not-found a {
-  color: red;
-}
-
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  animation: fade-in .5s;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+hr {
   color: white;
-  text-align: center;
 }
 
-.footer i {
-  color: black
+.riitag-mobile {
+  display: none;
 }
 
-@keyframes fade-in {
-from { opacity: 0;}
-to   { opacity: 1;}   
+@media screen and (max-width: 1216px) {
+  .riitag {
+    display: none;
+  }
+
+  .riitag-mobile {
+    display: block;
+  }
 }
