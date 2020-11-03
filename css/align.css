@@ -1,0 +1,66 @@
+.socials-banner {
+  font-size: 36px;
+  background-color: rgb(46, 46, 46);
+  height: 70px;
+  position: relative;
+}
+
+.socials-i {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  text-align: center;
+}
+
+.title img {
+  margin: 5px;
+  width: 120px;
+}
+
+hr {
+  color: white;
+}
+
+.riitag-mobile {
+  display: none;
+  text-align: center;
+}
+
+.riitag {
+  text-align: center;
+}
+
+.memes {
+  text-align: center;
+}
+
+.music {
+  text-align: center;
+}
+
+@media screen and (max-width: 1216px) {
+  .riitag {
+    display: none;
+  }
+
+  .riitag-mobile {
+    display: block;
+  }
+
+  .memes video {
+    width: 300px;
+  }
+}
+
+.adjust {
+  font-size: 36px;
+  float: right;
+  margin-top: 13px;
+  margin-right: 20px;
+}
