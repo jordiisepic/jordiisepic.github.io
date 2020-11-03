@@ -2,31 +2,63 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #111;
   color: white;
+  line-height: 1em;
+}
+
+.dark-mode {
+  background-color: rgb(212, 212, 212);
+  color: rgb(0, 0, 0);
+}
+
+.dark-mode hr {
+  color: black;
+}
+
+.dark-mode .socials-banner {
+  background-color: rgb(235, 235, 235);
+}
+
+.dark-mode .adjust {
+  color: black;
+}
+
+.dark-mode .fa-github {
+  color: black;
 }
 
 a {
   text-decoration: none;
-  color: rgb(34, 233, 110);
+  color: rgb(34, 177, 233);
 }
 
-.socials {
-  font-size: 24px;
+a:hover {
+  text-decoration: underline;
 }
 
-hr {
+.fa-youtube {
+  color: red;
+}
+
+.fa-twitch {
+  color: #6441A4;
+}
+
+.fa-discord {
+  color: #7289DA;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-github {
   color: white;
 }
 
-.riitag-mobile {
-  display: none;
-}
-
-@media screen and (max-width: 1216px) {
-  .riitag {
-    display: none;
-  }
-
-  .riitag-mobile {
-    display: block;
-  }
+.adjust {
+  border: none;
+  color: white;
+  background: none;
+  text-decoration: none;
+  cursor: pointer;
 }
