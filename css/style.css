@@ -3,6 +3,7 @@ body {
   background-color: #111;
   color: white;
   line-height: 1em;
+  animation: fadeIn ease 1s;
 }
 
 .dark-mode {
@@ -61,4 +62,24 @@ a:hover {
   background: none;
   text-decoration: none;
   cursor: pointer;
+}
+
+.memes video {
+  border-radius: 10px;
+}
+
+.riitag img {
+  border-radius: 10px;
+}
+
+.music audio {
+  border-radius: 10px;
+}
+
+.title img {
+  border-radius: 10px;
+}
+
+.socials-banner {
+  border-radius: 10px;
 }
