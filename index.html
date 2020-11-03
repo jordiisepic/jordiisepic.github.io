@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/align.css">
   <meta property="og:type" content="article">
   <meta property="og:title" content="jordiisepic.me">
   <meta property="og:description" content="welcome to my site, i guess. there isn't much to look at here, huh? this will probably host my projects in the future.">
@@ -13,20 +14,33 @@
   <link rel="icon" href="assets/icon.png">
 </head>
 <body>
+
+<div class="socials-banner">
+  <div class="socials-i">
+    <p><a href="https://twitter.com/jordiisepic"><i class="fab fa-twitter"></i></a> &middot; <a href="https://youtube.com/jordiisepic"><i class="fab fa-youtube"></i></a> &middot; <a href="https://twitch.tv/jordiisepic"><i class="fab fa-twitch"></i></a> &middot; <a href="https://discord.gg/kbzkwfG"><i class="fab fa-discord"></i></a> &middot; <a href="https://github.com/jordiisepic"><i class="fab fa-github"></i></a></p>
+  </div>
+    <button class="adjust" onclick="darkMode()"><i class="fas fa-adjust"></i></button>
+</div>
+
+<hr>
+
+<div class="title">
+  <a href="https://jordiisepic.me/assets/icon.png"><img src="assets/icon.png"></a>
   <h1>jordiisepic.me</h1>
   <p>welcome to my site, i guess. there isn't much to look at here, huh?</p>
   <p>this will probably host my projects in the future.</p>
-  <hr>
-  <div class="socials">
-  <p><a href="https://twitter.com/jordiisepic"><i class="fab fa-twitter"></i></a> &middot; <a href="https://youtube.com/jordiisepic"><i class="fab fa-youtube"></i></a> &middot; <a href="https://twitch.tv/jordiisepic"><i class="fab fa-twitch"></i></a> &middot; <a href="https://discord.gg/kbzkwfG"><i class="fab fa-discord"></i></a> &middot; <a href="https://github.com/jordiisepic"><i class="fab fa-github"></i></a></p>
 </div>
+
 <hr>
-  <a href="https://jordiisepic.me/assets/icon.png"><img src="assets/icon.png"></a>
+
+<p class="riitag"><a href="https://tag.rc24.xyz/523276678168969246">
+  <img src="https://tag.rc24.xyz/523276678168969246/tag.max.png"/></a>
+</p>
+<a class="riitag-mobile" href="https://tag.rc24.xyz/523276678168969246"><img src="https://tag.rc24.xyz/click.png"></a>
+
 <hr>
-  <a class="riitag" href="https://tag.rc24.xyz/523276678168969246"><img src="https://tag.rc24.xyz/523276678168969246/tag.max.png"/></a>
-  <a class="riitag-mobile" href=""><img src="https://tag.rc24.xyz/click.png" alt=""></a>
-  <hr>
-  <h1>stupid memes</h1>
+
+<div class="memes">
   <video controls width="450"> <source src="assets/1.mp4" type="video/mp4">
     update your damn browser/os.
   </video>
@@ -39,8 +53,11 @@
   <video controls width="450"> <source src="assets/4.mp4" type="video/mp4">
     update your damn browser/os.
   </video>
+</div>
+
 <hr>
-<h1>really good music that i would recommend</h1>
+
+<div class="music">
 <h3>green day - basket case</h3>
 <audio controls>
   <source src="assets/audio/Green Day - Basket Case.mp3" type="audio/mpeg">
@@ -51,5 +68,14 @@
   <source src="assets/audio/Green Day - When I Come Around.mp3" type="audio/mpeg">
   update your damn browser/os.
 </audio>
+</div>
+
+<script>
+  function darkMode() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+</script>
+
 </body>
 </html>
