@@ -95,4 +95,9 @@ hr {
   .riitag-mobile {
     display: block;
   }
+
+  .music iframe {
+    width: 510px;
+    height:265px;
+  }
 }
