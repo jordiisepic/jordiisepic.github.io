@@ -87,6 +87,23 @@ hr {
   text-align: center;
 }
 
+.mobile-warning {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+}
+
+.mobile-warning img {
+  margin: 5px;
+  width: 120px;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 1216px) {
   .riitag {
     display: none;
@@ -95,9 +112,14 @@ hr {
   .riitag-mobile {
     display: block;
   }
+}
 
-  .music iframe {
-    width: 510px;
-    height:265px;
+@media screen and (max-width: 600px) {
+  .music, .riitag-mobile, .title, .footer, hr {
+    display: none;
+  }
+
+  .mobile-warning {
+    display: block;
   }
 }
