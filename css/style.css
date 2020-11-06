@@ -1,91 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #111;
   color: white;
-  line-height: 1em;
-  animation: fadeIn ease 1s;
+  line-height: 0.9em;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: #33ccff;
+  color: #949494;
 }
 
 a:hover {
-  text-decoration: underline;
-}
-
-.adjust {
-  border: none;
   color: white;
-  background: none;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 36px;
-  float: right;
-  margin-top: 13px;
-  margin-right: 10px;
 }
 
-.riitag img {
+.riitag img, .title img, .music iframe {
   border-radius: 10px;
 }
 
-.music audio {
-  border-radius: 10px;
-}
-
-.title img {
-  border-radius: 10px;
-}
-
-.socials-banner {
-  border-radius: 10px;
-  font-size: 36px;
-  background-color: rgb(46, 46, 46);
-  height: 70px;
+.banner {
   position: relative;
-  margin-bottom: 5px;
+  overflow: hidden;
+  background-color: #333;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
 }
 
-.socials-i {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.banner a {
+  padding: 12px 18px;
 }
 
 .title {
   text-align: center;
+  margin-top: 20px;
 }
 
 .title img {
-  margin: 5px;
   width: 120px;
 }
 
-hr {
-  color: white;
-}
-
-.footer {
+.project {
   text-align: center;
-}
-
-.riitag-mobile {
-  display: none;
-  text-align: center;
+  background-color: #222;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .riitag {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  padding: 8px 12px;
   text-align: center;
 }
 
 .music {
   text-align: center;
+  background-color: #222;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 
 .mobile-warning {
   margin: 0;
@@ -105,18 +89,8 @@ hr {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1216px) {
-  .riitag {
-    display: none;
-  }
-
-  .riitag-mobile {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .music, .riitag-mobile, .title, .footer, hr {
+@media screen and (max-width: 1720px) {
+  .music, .projects, .title, .riitag, .footer {
     display: none;
   }
 
