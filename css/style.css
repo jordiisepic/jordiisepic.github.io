@@ -1,12 +1,8 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #111;
   color: white;
-  line-height: 0.9em;
+  line-height: 1.3em;
   margin: 0;
 }
 
@@ -36,6 +32,20 @@ a:hover {
   padding: 12px 18px;
 }
 
+.banner-mobile {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+  padding: 12px;
+  text-align: center;
+  font-size: 24px;
+  display: none;
+}
+
+.banner-mobile a {
+  padding: 12px 18px;
+}
+
 .title {
   text-align: center;
   margin-top: 20px;
@@ -45,9 +55,15 @@ a:hover {
   width: 120px;
 }
 
-.project {
+.projects {
   text-align: center;
   background-color: #222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.source {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -56,20 +72,48 @@ a:hover {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #222;
+}
+
+small {
+  font-size: 18px;
 }
 
 .footer {
   padding: 8px 12px;
   text-align: center;
+  background-color: #222;
 }
 
-.music {
+.warning {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #222;
+}
+
+.friends {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.music {
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.music iframe {
+  padding: 3px;
+}
+
+.riitag-mobile {
+  display: none;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .mobile-warning {
   margin: 0;
@@ -89,12 +133,48 @@ a:hover {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1720px) {
-  .music, .projects, .title, .riitag, .footer {
+@media screen and (max-width: 1225px) {
+  .riitag {
+    display: none;
+  }
+
+  .riitag-mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 580px) {
+.music iframe {
+    width: 97%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .banner-mobile {
+    display: block;
+  }
+
+  .banner {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .riitag-mobile, .projects, .music, .title, .warning {
     display: none;
   }
 
   .mobile-warning {
     display: block;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  .banner-mobile a {
+    padding: 10px 8px;
   }
 }
