@@ -1,4 +1,4 @@
-# [jordiisepic.me](https://jordiisepic.me)
+# [jordiisepic.github.io](https://jordiisepic.github.io)
 
 welcome to my site, i guess. there isn't much to look at here, huh?
 
