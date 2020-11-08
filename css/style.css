@@ -160,7 +160,7 @@ small {
 }
 
 @media screen and (max-width: 500px) {
-  .riitag-mobile, .projects, .music, .title, .warning {
+  .riitag-mobile, .projects, .music, .title, .warning, .source, .friends {
     display: none;
   }
 
