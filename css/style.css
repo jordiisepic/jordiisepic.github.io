@@ -19,89 +19,79 @@ a:hover {
   border-radius: 10px;
 }
 
-.banner {
-  position: relative;
-  overflow: hidden;
-  background-color: #333;
-  padding: 12px;
-  text-align: center;
-  font-size: 18px;
-}
-
-.banner a {
-  padding: 12px 18px;
-}
-
-.banner-mobile {
-  position: relative;
-  overflow: hidden;
-  background-color: #333;
-  padding: 12px;
-  text-align: center;
-  font-size: 24px;
-  display: none;
-}
-
-.banner-mobile a {
-  padding: 12px 18px;
-}
-
 .title {
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #333;
 }
 
 .title img {
   width: 120px;
 }
 
-.projects {
-  text-align: center;
-  background-color: #222;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.inline {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  min-width: 99%;
 }
 
-.source {
+.projects {
+  background-color: #222;
+  padding: 20px;
+  width: 32%;
+  display: table-cell;
+}
+
+.projects h1, .about-socials h1, .socials {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+}
+
+.socials p {
+  text-align: center;
+}
+
+.about p, .projects p {
+  text-align: justify;
+}
+
+.about-socials {
+  width: 32%;
+  padding: 20px;
+  background-color: #222;
+  width: 33%;
+  display: table-cell;
+}
+
+.friends {
+  text-align: center;
+  width: 33%;
+  padding: 20px;
+  background-color: #222;
+  display: table-cell;
 }
 
 .riitag {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #222;
-}
-
-small {
-  font-size: 18px;
+  background-color: #333;
 }
 
 .footer {
-  padding: 8px 12px;
   text-align: center;
-  background-color: #222;
-}
-
-.warning {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #222;
-}
-
-.friends {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #333;
 }
 
 .music {
   text-align: center;
   padding-top: 17px;
   padding-bottom: 17px;
+  background-color: #222;
 }
 
 .music iframe {
@@ -149,18 +139,8 @@ small {
   }
 }
 
-@media screen and (max-width: 710px) {
-  .banner-mobile {
-    display: block;
-  }
-
-  .banner {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 500px) {
-  .riitag-mobile, .projects, .music, .title, .warning, .source, .friends {
+  .riitag-mobile, .projects, .music, .title, .about-socials, .friends {
     display: none;
   }
 
@@ -172,9 +152,5 @@ small {
     position: absolute;
     bottom: 0px;
     width: 100%;
-  }
-
-  .banner-mobile a {
-    padding: 10px 8px;
   }
 }
