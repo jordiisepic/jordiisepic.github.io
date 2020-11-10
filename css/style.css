@@ -15,7 +15,7 @@ a:hover {
   color: white;
 }
 
-.riitag img, .title img, .music iframe {
+.riitag img, .title img {
   border-radius: 10px;
 }
 
@@ -87,17 +87,6 @@ a:hover {
   background-color: #333;
 }
 
-.music {
-  text-align: center;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  background-color: #222;
-}
-
-.music iframe {
-  padding: 3px;
-}
-
 .riitag-mobile {
   display: none;
   text-align: center;
@@ -133,14 +122,8 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 580px) {
-.music iframe {
-    width: 97%;
-  }
-}
-
 @media screen and (max-width: 500px) {
-  .riitag-mobile, .projects, .music, .title, .about-socials, .friends {
+  .riitag-mobile, .projects, .title, .about-socials, .friends {
     display: none;
   }
 
