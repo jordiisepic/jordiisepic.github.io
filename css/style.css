@@ -3,7 +3,7 @@ body {
   background-color: #111;
   color: white;
   line-height: 1.3em;
-  margin: 20px;
+  margin: 5px;
 }
 
 a {
@@ -11,129 +11,65 @@ a {
   color: #949494;
 }
 
-a:hover {
-  color: white;
-}
-
-.riitag img, .title img {
-  border-radius: 10px;
-}
-
-.title {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #333;
-}
-
-.title img {
-  width: 120px;
-}
-
-.inline {
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  min-width: 99%;
-}
-
-.projects {
-  background-color: #222;
-  padding: 20px;
-  width: 32%;
-  display: table-cell;
-}
-
-.projects h1, .about-socials h1, .socials {
+h1 {
   text-align: center;
 }
 
-.socials p {
-  text-align: center;
-}
-
-.about p, .projects p {
+p {
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: justify;
 }
 
-.about-socials {
-  width: 32%;
-  padding: 20px;
-  background-color: #222;
-  width: 33%;
-  display: table-cell;
+hr {
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
-.friends {
-  text-align: center;
-  width: 33%;
-  padding: 20px;
-  background-color: #222;
-  display: table-cell;
+a:hover {
+  color: white;
+  text-decoration: underline;
 }
 
-.riitag {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #333;
+.title-img {
+  width: 100px;
 }
 
-.footer {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #333;
-}
-
-.riitag-mobile {
-  display: none;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.mobile-warning {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  display: none;
-  line-height: normal;
-}
-
-.mobile-warning img {
-  margin: 5px;
-  width: 120px;
+img {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1225px) {
-  .riitag {
-    display: none;
+.rt img {
+  width: 40%;
+}
+
+.rt {
+  text-align: center;
+}
+
+.rt-mobile {
+  display: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  hr, p {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
-  .riitag-mobile {
-    display: block;
+  .rt img, .rt-mobile img {
+    width: 90%;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .riitag-mobile, .projects, .title, .about-socials, .friends {
+@media only screen and (max-width: 400px) {
+  .rt {
     display: none;
   }
 
-  .mobile-warning {
+  .rt-mobile {
     display: block;
-  }
-
-  .footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
   }
 }
