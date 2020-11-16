@@ -80,6 +80,12 @@ a {
   text-align: center;
 }
 
+#nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #footer-mobile {
   display: none;
   position: fixed;
@@ -89,7 +95,7 @@ a {
   text-align: center;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 540px) {
   #footer {
     display: none;
   }
