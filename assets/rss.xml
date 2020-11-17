@@ -10,17 +10,10 @@
 <author>jordiisepic@jordiisepic.me</author> 
 
 <item>
- <title>My First Blog Post</title>
+ <title>RSS blog debut</title>
  <link>https://jordiisepic.me</link>
- <description>Hey, if you're reading this, welcome! This is my blog. I'm not sure what to say other than, have a good day!</description>
- <pubDate>Mon, Nov 16 2020</pubDate>
-</item>
-
-<item>
- <title>RSS Blog is Live!</title>
- <link>https://jordiisepic.me</link>
- <description>Welcome, this is my new RSS blog that I will update now and again. Don't expect daily or even weekly updates, but I will use this from time to time. Who knows what I'll add on here!</description>
- <pubDate>Mon, Nov 16 2020</pubDate>
+ <description>Hello, my RSS blog will mostly consist of random thoughts and changes in my life. I doubt I'll even do weekly posts, but we'll see. Who knows what'll be on here?</description>
+ <pubDate>Mon, 16 Nov 2020 23:16:00 -0500</pubDate>
 </item>
 
 </channel>
