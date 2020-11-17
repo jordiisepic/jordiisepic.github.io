@@ -1,8 +1,10 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #333;
+  background-color: rgb(26, 26, 26);
   color: white;
   margin: 0;
+  background-size: 400% 400%;
+  animation: bgGradient 12s ease infinite;
 }
 
 a {
@@ -18,17 +20,21 @@ a {
 }
 
 #nav-content a {
-  color: white;
+  color: rgb(187, 187, 187);
   padding: 20px 15px;
   text-align: center;
   float: left;
 }
 
 #nav-links a {
-  color: white;
+  color: rgb(187, 187, 187);
   padding: 20px 15px;
   text-align: center;
   float: right;
+}
+
+#nav a:hover {
+  color: white;
 }
 
 #nav-content, #nav-links {
