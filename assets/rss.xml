@@ -4,20 +4,20 @@
 <channel>
 
 <language>en-us</language>
-<title>Jordiisepic.me RSS</title>
+<title>Jordiisepic RSS</title>
 <link>https://jordiisepic.me</link>
 <description>Random blog, not much else.</description>
 <author>jordiisepic@jordiisepic.me</author> 
 
 <item>
- <title>RSS blog is live!</title>
+ <title>My First Blog Post</title>
  <link>https://jordiisepic.me</link>
- <description>Welcome, this is my new RSS blog that I will update now and again. Don't expect daily or even weekly updates, but I will use this from time to time. Who knows what I'll add on here!</description>
+ <description>Hey, if you're reading this, welcome! This is my blog. I'm not sure what to say other than, have a good day!</description>
  <pubDate>Mon, Nov 16 2020</pubDate>
 </item>
 
 <item>
- <title>RSS blog is live!</title>
+ <title>RSS Blog is Live!</title>
  <link>https://jordiisepic.me</link>
  <description>Welcome, this is my new RSS blog that I will update now and again. Don't expect daily or even weekly updates, but I will use this from time to time. Who knows what I'll add on here!</description>
  <pubDate>Mon, Nov 16 2020</pubDate>
