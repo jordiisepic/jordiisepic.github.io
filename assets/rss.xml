@@ -4,10 +4,17 @@
 <channel>
 
 <language>en-us</language>
-<title>Jordiisepic RSS</title>
+<title>Jordan's RSS Blog</title>
 <link>https://jordiisepic.me</link>
 <description>Random blog, not much else.</description>
-<author>jordiisepic@jordiisepic.me</author> 
+<author>jordiisepic@jordiisepic.me</author>
+
+<item>
+ <title>Why Reddit I think isn't a bad platform overall</title>
+ <link>https://jordiisepic.me</link>
+ <description>I'm sure we've seen all the memes surrounding the popular social platform Reddit. Most of them mocking the platform or moderators of said platform, but honestly the platform isn't awful. If you find what communities you're into, (for me: r/ps2, r/wiiu, r/psp) then you have all the content you care for right there. No giant cesspools of garbage (usually).</description>
+ <pubDate>Mon, 16 Nov 2020 23:21:00 -0500</pubDate>
+</item>
 
 <item>
  <title>RSS blog debut</title>
