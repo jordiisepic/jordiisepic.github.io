@@ -1,5 +1,3 @@
 # [jordiisepic.github.io](https://jordiisepic.github.io)
 
-welcome to my site, i guess. there isn't much to look at here, huh?
-
-this will probably host my projects in the future.
+My website written in HTML and CSS (little bits of JavaScript could be present). Biggest reason this exists is to have a portfolio of myself to show my work and go in-depth of who I am!
