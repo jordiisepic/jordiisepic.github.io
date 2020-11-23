@@ -1,3 +1,3 @@
 # [jordiisepic.me](https://jordiisepic.me)
 
-My website written in HTML and CSS (little bits of JavaScript could be present). Biggest reason this exists is to have a portfolio of myself to show my work and go in-depth of who I am!
+My website written in HTML3 and CSS3. Designed to work in older browsers. HTTPS is *not* enforced so it likely does work on older hardware and browsers. 
