@@ -3,7 +3,7 @@ body {
   background-image: url("../assets/parappa.webp");
   color: black;
   text-shadow: 0px 0px 3px #000;
-  background-size: 5%;
+  background-size: 15%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   animation-name: backg;
   animation-duration: 4s;
@@ -11,11 +11,32 @@ body {
 }
 
 @keyframes backg {
-  0%   {background-size: 5%; color: black;}
-  50%   {background-size: 15%; color: red;}
-  100%   {background-size: 5%; color: black;}
+  0%   {background-size: 15%; color: black;}
+  50%   {background-size: 10%; color: red;}
+  100%   {background-size: 15%; color: black;}
 }
 
 .baby img {
   width: 300px;
+}
+
+::selection {
+  background: #6f00ff;
+}
+
+.social button {
+  background-color: #165fa3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition: .3s;
+}
+
+.social button:hover {
+  background-color: #fff;
+  color: black;
 }
