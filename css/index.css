@@ -6,7 +6,7 @@ a {
   color: darkslateblue;
 }
 
-img {
+.inline img {
   height: 50px;
   width: 50px;
 }
@@ -31,4 +31,8 @@ img {
 .content {
   margin-left: 200px;
   margin-right: 200px;
+}
+
+.buttons img {
+  width: 100px;
 }
