@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-image: url("../assets/bg.png");
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+hr {
+  color: white;
+}
+
+a {
+  color: darkslateblue;
+}
+
+.banner {
+  height: 100px;
+}
+
+.content {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.center {
+  text-align: center;
+}
+
+.header a {
+  color: #0DFFC3;
+  font-size: 24px;
+  padding: 5px;
+  background: linear-gradient(135deg, #020001, #62004D);
+  text-decoration: none;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #eee;
+  background-color: rgb(255, 255, 255, .3);
+  text-align: center;
+  padding: 4px;
+  font-size: 24px;
+}
+
+.nav a {
+  color: rgb(255, 255, 255);
+  padding: 2px;
+}
+
+.button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
