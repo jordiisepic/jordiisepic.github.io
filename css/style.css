@@ -13,6 +13,11 @@ a {
   color: darkslateblue;
 }
 
+a:hover {
+  color: black;
+  background-color: white;
+}
+
 .banner {
   height: 100px;
 }
