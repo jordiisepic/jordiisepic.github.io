@@ -10,12 +10,12 @@ hr {
 }
 
 a {
-  color: darkslateblue;
+  color: rgb(111, 174, 255);
 }
 
 a:hover {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: rgb(255, 255, 255, .1);
 }
 
 .banner {
@@ -37,22 +37,6 @@ a:hover {
   padding: 5px;
   background: linear-gradient(135deg, #020001, #62004D);
   text-decoration: none;
-}
-
-.nav {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background: #eee;
-  background-color: rgb(255, 255, 255, .3);
-  text-align: center;
-  padding: 4px;
-  font-size: 24px;
-}
-
-.nav a {
-  color: rgb(255, 255, 255);
-  padding: 2px;
 }
 
 .button {
