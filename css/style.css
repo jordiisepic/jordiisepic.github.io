@@ -30,3 +30,11 @@ a:hover {
 a h1 {
   color: #FF00BF;
 }
+
+.riitag {
+  background: linear-gradient(135deg, #720055, #24001b)
+}
+
+a i {
+  color: rgb(214, 214, 214);
+}
