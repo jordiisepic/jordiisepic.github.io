@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: #111;
+  text-shadow: 2px 2px 5px #111;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #FF00BF;
+}
+
+a {
+  color: rgb(46, 110, 206);
+  text-decoration: none;
+  transition: .3s;
+}
+
+a h1 {
+  color: #FF00BF;
+}
+
+a {
+  color: rgb(214, 214, 214);
+}
+
+.socials {
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.gh:hover {
+  color: #000000;
+}
+
+.mas:hover {
+  color: #3088d4;
+}
+
+.last:hover {
+  color: #b90000;
+}
+
+.rd:hover {
+  color: #ff4500;
+}
+
+.tag:hover {
+  color: #22b3eb;
+}
