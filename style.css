@@ -1,52 +1,67 @@
 body {
   margin: 0;
+  font-family: 'Segoe UI', sans-serif;
   background-color: #111;
-  text-shadow: 2px 2px 5px #111;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #FF00BF;
+  color: white;
 }
 
 a {
-  color: rgb(46, 110, 206);
+  color: rgb(42, 108, 250);
   text-decoration: none;
-  transition: .3s;
 }
 
-a h1 {
-  color: #FF00BF;
+a:hover {
+  text-decoration: underline;
 }
 
-a {
-  color: rgb(214, 214, 214);
-}
-
-.socials {
-  font-size: 48px;
+.center {
   text-align: center;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
-.gh:hover {
-  color: #000000;
+.center-flex {
+  display: flex;
+  justify-content: center;
 }
 
-.mas:hover {
-  color: #3088d4;
+.navbar {
+  color: rgb(153, 153, 153);
+  background-color: #222;
+  text-align: center;
+  padding: 2px;
 }
 
-.last:hover {
-  color: #b90000;
+.navbar a {
+  color: white;
 }
 
-.rd:hover {
-  color: #ff4500;
+.header {
+  margin: 15px 0px 15px 0px;
 }
 
-.tag:hover {
-  color: #22b3eb;
+h1 img {
+	width: 50px;
+	vertical-align: middle;
+  margin-top: -13px;
+  border-radius: 100%;
+}
+
+.content {
+  margin-left: 20px;
+}
+
+.content i {
+  font-size: 24px;
+}
+
+.desktop img {
+  width: 400px;
+}
+
+.mobile img {
+  width: 200px;
+}
+
+.desktop, .mobile {
+  margin: 10px;
+  text-align: center;
 }
