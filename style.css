@@ -65,3 +65,62 @@ h1 img {
   margin: 10px;
   text-align: center;
 }
+
+.banner {
+  background-color: yellow;
+  font-size: 24px;
+  text-align: center;
+}
+
+.banner a {
+  color: black;
+}
+
+.fa-telegram {
+  color: #34a9db;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.fa-github {
+  color: black;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.fa-steam {
+  color: black;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.fa-patreon {
+  color: #ff424d;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.fa-youtube {
+  color: red;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.fa-mastodon {
+  color: #3088d4;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.fa-reddit {
+  color: #ff4500;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
