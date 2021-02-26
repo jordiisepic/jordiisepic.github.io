@@ -45,11 +45,11 @@ h1 img {
   border-radius: 100%;
 }
 
-.content {
+.content-home {
   margin-left: 20px;
 }
 
-.content i {
+.content-home i {
   font-size: 24px;
 }
 
@@ -79,50 +79,22 @@ h1 img {
 .fa-telegram {
   color: #34a9db;
   background-color: white;
-  padding: 2px;
-  border-radius: 5px;
+  padding: 3px;
+  border-radius: 25px;
 }
 
 .fa-github {
   color: black;
   background-color: white;
-  padding: 2px;
-  border-radius: 5px;
-}
-
-.fa-steam {
-  color: black;
-  background-color: white;
-  padding: 2px;
-  border-radius: 5px;
-}
-
-.fa-patreon {
-  color: #ff424d;
-  background-color: white;
-  padding: 2px;
-  border-radius: 5px;
-}
-
-.fa-youtube {
-  color: red;
-  background-color: white;
-  padding: 2px;
-  border-radius: 5px;
+  padding: 3px;
+  border-radius: 25px;
 }
 
 .fa-mastodon {
   color: #3088d4;
   background-color: white;
-  padding: 2px;
-  border-radius: 5px;
-}
-
-.fa-reddit {
-  color: #ff4500;
-  background-color: white;
-  padding: 2px;
-  border-radius: 5px;
+  padding: 3px;
+  border-radius: 25px;
 }
 
 @media only screen and (max-width: 600px) {
