@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jordiisepic
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jordiisepic.me
+  * I am jordiisepic (https://keybase.io/jordiisepic) on keybase.
+  * I have a public key ASDkG_Q-twHcBS_XNzXvtYV--Z1kGuHW7vr0cceFv8kIDwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e41bf43eb701dc052fd73735efb5857ef99d641ae1d6eefaf471c785bfc9080f0a",
+      "host": "keybase.io",
+      "kid": "0120e41bf43eb701dc052fd73735efb5857ef99d641ae1d6eefaf471c785bfc9080f0a",
+      "uid": "f4a9d480250aab97ba328918aa67e619",
+      "username": "jordiisepic"
+    },
+    "merkle_root": {
+      "ctime": 1614876619,
+      "hash": "e329fa9f5f416bcae9d8da1c87f813a707d291945d47753b2b1bf7ac27e233abbe6afd0f252ef476494ad2de8793e3211224f5677f54f30e9c82afd081a1476b",
+      "hash_meta": "7476f2d34ced6f36dee67aca2001e6c6a60f8ec304ebf84c61523fde76cfaa4b",
+      "seqno": 19290640
+    },
+    "service": {
+      "entropy": "k8Rse4fIAE53Va9Zz1O3nsVi",
+      "hostname": "jordiisepic.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1614876674,
+  "expire_in": 504576000,
+  "prev": "80f9f76c133bfd6a637e8d6d489b27c34ed92c6308c1ab81886ec71f4b8334aa",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5Bv0PrcB3AUv1zc177WFfvmdZBrh1u769HHHhb/JCA8Kp3BheWxvYWTESpcCBcQggPn3bBM7/Wpjfo1tSJsnw07ZLGMIwauBiG7HH0uDNKrEIF1MEz0NOh46jTkPZyuqNlavzpBsAZ7I/ucVoAF7alioAgHCo3NpZ8RAt9/naF+MJK08VZlQE153G9/aSuMEanlcO9VkUfJW1NoHkuHlUtLg0AC4Loms8ZIw2QgHlMvRHwstaGZkguoKBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAPSFH7+v/jWxxstEpnaCXSSZjd7rp88WvJnaE+uDzHdo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jordiisepic
+
+==================================================================
