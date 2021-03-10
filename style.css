@@ -1,8 +1,13 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #111;
+  background-color: #2C2F33;
   color: white;
+}
+
+@font-face {
+  font-family: discord;
+  src: url(assets/discord.otf);
 }
 
 a {
@@ -18,31 +23,54 @@ a:hover {
   text-align: center;
 }
 
-.center-flex {
-  display: flex;
-  justify-content: center;
+.right {
+  float: right;
+}
+
+.right a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-content {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .navbar {
-  color: rgb(153, 153, 153);
-  background-color: #222;
-  text-align: center;
-  padding: 2px;
+  height: 60px;
+  background-color: #23272A;
 }
 
 .navbar a {
+  line-height: 60px;
   color: white;
 }
 
-.header {
-  margin: 15px 0px 15px 0px;
+.navbar-content img {
+  margin-top: 10px;
+  border-radius: 50%;
+  float: left;
+  height: 40px;
 }
 
-h1 img {
-	width: 50px;
-	vertical-align: middle;
-  margin-top: -13px;
-  border-radius: 100%;
+.home {
+  margin-left: 10px;
+  line-height: 60px;
+  font-size: 24px;
+  font-family: discord;
+}
+
+.home:hover {
+  text-decoration: none;
+}
+
+.center-flex a:hover {
+  text-decoration: none;
+}
+
+.content-center {
+  text-align: center;
 }
 
 .content-home {
@@ -66,35 +94,40 @@ h1 img {
   text-align: center;
 }
 
-.banner {
-  background-color: yellow;
-  font-size: 24px;
-  text-align: center;
-}
-
-.banner a {
-  color: black;
-}
-
 .fa-telegram {
   color: #34a9db;
-  background-color: white;
-  padding: 3px;
-  border-radius: 25px;
 }
 
 .fa-github {
   color: black;
-  background-color: white;
-  padding: 3px;
-  border-radius: 25px;
 }
 
 .fa-mastodon {
   color: #3088d4;
-  background-color: white;
-  padding: 3px;
-  border-radius: 25px;
+}
+
+.mobile-banner {
+  background-color: #7289DA;
+  text-align: center;
+  display: none;
+}
+
+.mobile-banner p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+  .navbar-content {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .mobile-banner {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 600px) {
